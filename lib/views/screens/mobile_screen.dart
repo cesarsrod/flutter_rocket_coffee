@@ -91,7 +91,7 @@ class MobileScreen extends StatelessWidget {
                             foreground: Paint()
                               ..style = PaintingStyle.stroke
                               ..strokeWidth = 3
-                              ..color = Colors.white,
+                              ..color = Color(0xFF8257E5),
                           ),
                         ),
                       ),
