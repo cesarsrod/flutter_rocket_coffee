@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class customButton extends StatelessWidget {
   const customButton({Key? key}) : super(key: key);
@@ -9,10 +10,8 @@ class customButton extends StatelessWidget {
       child: Row(
         children: [
           Padding(
-            padding: const EdgeInsets.symmetric(horizontal: 18),
-            child: Text(
-              'PEGAR MEU CAFÉ',
-            ),
+            padding: const EdgeInsets.all(20),
+            child: Text('PEGAR MEU CAFÉ', style: TextStyle(fontSize: 18)),
           ),
           Icon(
             Icons.navigate_next,
@@ -20,10 +19,9 @@ class customButton extends StatelessWidget {
         ],
       ),
       style: TextButton.styleFrom(
-        maximumSize: Size(200, 50),
         primary: Colors.white,
         side: BorderSide(
-          width: 2,
+          width: 3,
           color: Color(0xFF8257E5),
         ),
       ),
